@@ -63,12 +63,12 @@ const Header = ({ active }) => {
                                             Home
                                         </div>
                                     </NavLink>
-                                    <NavLink id="2" href="/events" className={`elements circle-border ${((active!==2) && hover2)?'selected-gradient':'unselected-gradient'}`} onMouseEnter={toggleHover2} onMouseLeave={toggleHover2}>
+                                    <NavLink id="2" href="events" className={`elements circle-border ${((active!==2) && hover2)?'selected-gradient':'unselected-gradient'}`} onMouseEnter={toggleHover2} onMouseLeave={toggleHover2}>
                                         <div className={`title a ${(active===2)?'underline-green green':'white'}`}>
                                             Events
                                         </div>
                                     </NavLink>
-                                    <NavLink id="3" href="/students" className={`elements circle-border ${((active!==3) && hover1)?'selected-gradient':'unselected-gradient'}`} onMouseEnter={toggleHover1} onMouseLeave={toggleHover1}>
+                                    <NavLink id="3" href="students" className={`elements circle-border ${((active!==3) && hover1)?'selected-gradient':'unselected-gradient'}`} onMouseEnter={toggleHover1} onMouseLeave={toggleHover1}>
                                         <div className={`title a ${(active===3)?'underline-green green':'white'}`}>
                                             Students
                                         </div>
